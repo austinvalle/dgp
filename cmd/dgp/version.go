@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"runtime"
 	"runtime/debug"
-
-	"github.com/austinvalle/dgp/pkg/discord"
 )
 
 type VersionCmd struct{}
@@ -25,6 +23,5 @@ func init() {
 func (cmd *VersionCmd) Run(ctx *Context) error {
 	fmt.Printf("dgp - commit: %s - %s/%s\n", commit, runtime.GOOS, runtime.GOARCH)
 
-	discord.Test("Hello World")
 	return nil
 }

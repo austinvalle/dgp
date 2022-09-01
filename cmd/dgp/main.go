@@ -5,6 +5,7 @@ import (
 )
 
 type DiscordGuildProbeCLI struct {
+	Read    ReadCmd    `cmd:"" help:"Reads all exported channels (JSON format) in directory"`
 	Version VersionCmd `cmd:"" help:"Print version of the dgp CLI"`
 }
 
