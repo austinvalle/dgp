@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/austinvalle/discord-guild-probe/pkg/discord"
+	"github.com/austinvalle/dgp/pkg/discord"
 )
 
 type VersionCmd struct{}

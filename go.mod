@@ -1,4 +1,4 @@
-module github.com/austinvalle/discord-guild-probe
+module github.com/austinvalle/dgp
 
 go 1.19
 

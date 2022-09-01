@@ -5,7 +5,7 @@ import (
 )
 
 type DiscordGuildProbeCLI struct {
-	Version VersionCmd `cmd:"" help:"Print version of the discord-guild-probe CLI"`
+	Version VersionCmd `cmd:"" help:"Print version of the dgp CLI"`
 }
 
 type Context struct{}
